@@ -15,7 +15,6 @@ h1 {
 }
 
 h2 {
-  color: #fff;
   font-family: "Montserrat";
   line-height: 1.5;
   font-size: 3rem;
@@ -97,6 +96,10 @@ h3 {
   margin: 20px;
 }
 
+.testimonial-text {
+  color: #fff;
+}
+
 .carousel-item {
   padding: 7% 15%;
 }
@@ -110,4 +113,13 @@ h3 {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-table {
+  padding: 3% 2%;
 }
