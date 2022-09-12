@@ -28,7 +28,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Nav bar */
@@ -56,14 +56,18 @@ h3 {
 }
 
 .title-image {
-  width: 50%;
+  width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* features section */
 
 #features {
+  background-color: #fff;
   padding: 7% 15%;
+  position: relative;
 }
 
 .feature-col {
@@ -122,4 +126,26 @@ h3 {
 
 .pricing-table {
   padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 6% 15% 4%;
+}
+
+.footer-text {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+#footer {
+  padding: 3% 7%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 5px;
 }
