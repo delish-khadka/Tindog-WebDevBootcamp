@@ -1,34 +1,33 @@
 body {
   font-family: "Montserrat";
-}
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+  text-align: center;
 }
 
-h1 {
-  color: white;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat";
+  font-weight: 700;
+}
+
+/* headings */
+.main-header {
+  color: white;
   font-size: 3.5rem;
   line-height: 1.5;
-  font-weight: 900;
 }
 
-h2 {
-  font-family: "Montserrat";
+.section-heading {
   line-height: 1.5;
   font-size: 3rem;
-  font-weight: 700;
 }
 
-h3 {
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 1.4rem;
-}
-
+/* container */
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 /* Nav bar */
@@ -50,6 +49,18 @@ h3 {
   font-family: "Montserrat";
 }
 
+/* title section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 /* download button */
 .download-button {
   margin: 5% 3% 5% 0;
@@ -66,13 +77,15 @@ h3 {
 
 #features {
   background-color: #fff;
-  padding: 7% 15%;
   position: relative;
+}
+
+.feature-title {
+  font-size: 1.4rem;
 }
 
 .feature-col {
   padding: 5%;
-  text-align: center;
 }
 
 .feature-icon {
@@ -88,10 +101,10 @@ h3 {
   color: #8f8f8f;
 }
 
-/* testimonial */
+/* testimonial section*/
 #testimonials {
   background-color: #ef8172;
-  text-align: center;
+  color: #fff;
 }
 
 .testimonial-img {
@@ -101,16 +114,14 @@ h3 {
 }
 
 .testimonial-text {
-  color: #fff;
+  line-height: 1.5;
+  font-size: 3rem;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
+/* press section  */
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -119,33 +130,36 @@ h3 {
   margin: 20px 20px 50px;
 }
 
+/* pricing section*/
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.price-text {
+  line-height: 1.5;
+  font-size: 3rem;
 }
 
 .pricing-table {
   padding: 3% 2%;
 }
 
+/* call to action section */
 #cta {
   background-color: #ff4c68;
-  text-align: center;
-  padding: 6% 15% 4%;
 }
 
-.footer-text {
-  color: #fff;
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 3rem;
-}
-
-#footer {
-  padding: 3% 7%;
-  text-align: center;
-}
-
+/* footer section */
 .footer-icon {
   margin: 5px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
